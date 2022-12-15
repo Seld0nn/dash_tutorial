@@ -11,7 +11,7 @@ COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
 COPY . ./
 
-EXPOSE 8080
-CMD ["python", "app.py"]
+#EXPOSE 8080
+#CMD ["python", "app.py"]
 
-# CMD [ "gunicorn", "--workers=5", "--threads=1", "-b 0.0.0.0:80", "app:server"]
+CMD [ "gunicorn", "--workers=5", "--threads=1", "-b 0.0.0.0:80", "app:server"]
