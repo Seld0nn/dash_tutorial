@@ -1,0 +1,10 @@
+---
+es:
+  amount: Monto
+  app_title: Tablero financiero 3
+  category: Categoria
+  month: Mes
+  no_data: No hay datos seleccionados
+  select: Seleccione...
+  select_all: Seleccionar todo
+  year: Año
